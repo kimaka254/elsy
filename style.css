@@ -52,6 +52,11 @@ body {
     visibility: visible;
     opacity: 1;
   }
+@media (max-width: 992px) {
+  .back-to-top {
+    display:none;
+  }
+
   header{
     height: 650px;
     width: 100%;
@@ -357,7 +362,7 @@ list-style-type: none;
 }
 @media (max-width: 992px) {
     #about{
-        height: 1000px;
+        height: 1050px;
        
     }
     #about ul{
@@ -417,7 +422,15 @@ list-style-type: none;
   }
   
 }
-
+@media (max-width: 992px) {
+  #skills-logo img{
+  height: 0px;
+  width: 60px;
+  border-radius: 50%;
+     
+  }
+  
+}
 
 #projects{
     height: 300px;
